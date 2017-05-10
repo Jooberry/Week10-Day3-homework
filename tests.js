@@ -30,19 +30,19 @@ describe('Array tasks', function () {
 		assert.deepEqual([4, 5], arrayTasks.findDuplicates(arr))
 	})
 
-	// it('should remove all instances of a value from an array, returning a new array', function () {
-	// 	var arr = [1, 2, 3, 1, 4, 5, 1]
-	// 	assert.deepEqual([2, 3, 4, 5], arrayTasks.removeAndClone(arr, 1))
-	// })
+	it('should remove all instances of a value from an array, returning a new array', function () {
+		var arr = [1, 2, 3, 1, 4, 5, 1]
+		assert.deepEqual([2, 3, 4, 5], arrayTasks.removeAndClone(arr, 1))
+	})
 
-	// it('should find all occurences of a value, returning an array of index positions', function () {
-	// 	var arr = [1, 2, 1, 3, 4, 1, 5]
-	// 	assert.deepEqual([0, 2, 5], arrayTasks.findIndexesOf(arr, 1))
-	// })
+	it('should find all occurences of a value, returning an array of index positions', function () {
+		var arr = [1, 2, 1, 3, 4, 1, 5]
+		assert.deepEqual([0, 2, 5], arrayTasks.findIndexesOf(arr, 1))
+	})
 
-	// it('should calculate the sum of all of even numbers in an array squared', function () {
-	// 	var arr = [1, 2, 3, 4, 5]
-	// 	assert.equal(20, arrayTasks.sumOfAllEvenNumbersSquared(arr))
-	// })
+	it('should calculate the sum of all of even numbers in an array squared', function () {
+		var arr = [1, 2, 3, 4, 5]
+		assert.equal(20, arrayTasks.sumOfAllEvenNumbersSquared(arr))
+	})
 
 })
